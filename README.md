@@ -25,12 +25,13 @@ Lorem ipsum
 
 Create a Resource Group <br/>
  
-![]()
+![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/1.1.PNG)
 <br />
 <br />
 Create a Windows 10 Virtual Machine (VM) <br/>
 
-![]()
+![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/1.2a.PNG)
+![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/1.2b.PNG)
 <br />
 <br />
 Create a Linux (Ubuntu) VM <br/>
