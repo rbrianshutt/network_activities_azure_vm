@@ -125,12 +125,12 @@ Stop the ping activity <br/>
 <br />
 <h3>Observe SSH Traffic</h3>
 
-- <b>In Wireshark, start a packet capture up</b> 
-- <b>Filter for SSH traffic only</b>
-- <b>From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)</b>
-- <b>Open PowerShell, and type: ssh labuser@10.0.0.5</b>
-- <b>Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark</b>
-- <b>Exit the SSH connection by typing ‘exit’ and pressing [Enter]</b>
+In Wireshark, start a packet capture up <br/>
+Filter for SSH traffic only <br/>
+From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address) <br/>
+Open PowerShell, and type: ssh labuser@10.0.0.5 <br/>
+Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark <br/>
+Exit the SSH connection by typing ‘exit’ and pressing [Enter] <br/>
 
 ![]()
 <br />
@@ -162,37 +162,12 @@ Observe the DNS traffic being show in WireShark <br/>
 
 In Wireshark, filter for RDP traffic only (tcp.port == 3389)  <br/>
 Observe the immediate non-stop spam of traffic <br/>
-the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted  <br/>
-
-
-![]()
-<br />
-<br />
-Lorem ipsum  <br/>
+The RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted  <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
 
-![]()
-<br />
-<br />
-Lorem ipsum  <br/>
-
-![]()
-<br />
-<br />
-Lorem ipsum  <br/>
-
-![]()
-<br />
-<br />
-Lorem ipsum  <br/>
-
-![]()
-<br />
-<br />
 
 
 <!--
