@@ -53,6 +53,8 @@ Ensure both VMs are in the same Virtual Network / Subnet <br/>
 ![]()
 <br />
 <br />
+<h3>Observe ICMP Traffic</h3>
+
 Use Remote Desktop to connect to your Windows 10 Virtual Machine <br/>
 
 ![]()
@@ -89,52 +91,79 @@ From The Windows 10 VM, open command line or PowerShell and attempt to ping a pu
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+<h3>Configuring a Firewall [Network Security Group]</h3>
+
+Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+Re-enable ICMP traffic for the Network Security Group <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working) <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+Stop the ping activity <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+<h3>Observe SSH Traffic</h3>
+
+- <b>In Wireshark, start a packet capture up</b> 
+- <b>Filter for SSH traffic only</b>
+- <b>From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)</b>
+- <b>Open PowerShell, and type: ssh labuser@10.0.0.5</b>
+- <b>Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark</b>
+- <b>Exit the SSH connection by typing ‘exit’ and pressing [Enter]</b>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+<h3>Observe DHCP Traffic</h3>
+
+In Wireshark, filter for DHCP traffic only  <br/>
+From your Windows 10 VM, attempt to issue your VM a new IP address from the command line <br/>
+Open PowerShell as admin and run: ipconfig /renew <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+Observe the DHCP traffic appearing in WireShark  <br/>
 
 ![]()
 <br />
 <br />
-Lorem ipsum  <br/>
+<h3>Observe DNS Traffic</h3>
+
+In Wireshark, filter for DNS traffic only <br/>
+From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are <br/>
+Observe the DNS traffic being show in WireShark <br/>
+
+![]()
+<br />
+<br />
+<h3>Observe RDP Traffic</h3>
+
+In Wireshark, filter for RDP traffic only (tcp.port == 3389)  <br/>
+Observe the immediate non-stop spam of traffic <br/>
+the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted  <br/>
+
 
 ![]()
 <br />
