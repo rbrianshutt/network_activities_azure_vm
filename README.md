@@ -16,7 +16,7 @@ Lorem ipsum
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
+
 Lorem ipsum  <br/>
  
 ![]()
@@ -56,7 +56,7 @@ Lorem ipsum
 <br />
 Lorem ipsum
 
-</p>
+
 
 <!--
  ```diff
