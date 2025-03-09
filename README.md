@@ -8,7 +8,7 @@ Lorem ipsum
 
 <h2>Techonology used</h2>
 
-- <bLorem ipsum</b> 
+- <b>Lorem ipsum</b> 
 - <b>Lorem ipsum</b>
 - <b>Lorem ipsum</b>
 - <b>Lorem ipsum</b>
