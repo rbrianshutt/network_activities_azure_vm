@@ -22,6 +22,7 @@ Lorem ipsum
 <h2>Program walk-through:</h2>
 
 <h3>Create our Virtual Machines</h3>
+
 Create a Resource Group <br/>
  
 ![]()
