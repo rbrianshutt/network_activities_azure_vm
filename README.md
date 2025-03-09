@@ -1,4 +1,3 @@
-# network_activities_azure_vm
 <h1>Lorem ipsum</h1>
 
 ![]()
