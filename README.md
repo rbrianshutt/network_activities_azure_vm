@@ -108,7 +108,7 @@ Open the Network Security Group your Ubuntu VM is using and disable incoming (in
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13a.PNG)
 <br/>
 <br/>
-Enter * for source port ranges and destination port ranges indicating any ports and all ports <br/>
+Enter * for source port ranges and destination port ranges indicating any ports <br/>
 Select ICMP protocol <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13a1.PNG)
