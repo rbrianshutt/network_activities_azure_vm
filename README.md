@@ -50,7 +50,7 @@ Ensure both VMs are in the same Virtual Network / Subnet <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/1.4.PNG)
 <br />
-<br />
+
 <h2>Observe ICMP Traffic</h2>
 
 Use Remote Desktop to connect to your Windows 10 Virtual Machine <br/>
@@ -95,8 +95,8 @@ From The Windows 10 VM, open command line or PowerShell and attempt to ping a pu
 
 ![]()
 <br />
-<br />
-<h3>Configuring a Firewall [Network Security Group]</h3>
+
+<h2>Configuring a Firewall [Network Security Group]</h2>
 
 Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM <br/>
 
@@ -135,7 +135,7 @@ Stop the ping activity - Control C <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13e.PNG)
 <br />
-<br />
+
 <h2>Observe SSH Traffic</h2>
 
 In Wireshark, start a packet capture up <br/>
@@ -171,7 +171,7 @@ Observe the DHCP traffic appearing in WireShark  <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.20b.PNG)
 <br />
-<br />
+
 <h3>Observe DNS Traffic</h3>
 
 In Wireshark, filter for DNS traffic only <br/>
@@ -182,7 +182,7 @@ Observe the DNS traffic being show in WireShark <br/>
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.22.1.PNG)
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.22.2.PNG)
 <br />
-<br />
+
 <h2>Observe RDP Traffic</h2>
 
 In Wireshark, filter for RDP traffic only (tcp.port == 3389)  <br/>
