@@ -112,7 +112,7 @@ Notice the requests are timing out<br/>
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13b.PNG)
 <br />
 <br />
-Re-enable ICMP traffic for the Network Security Group <br/>
+Re-enable ICMP traffic for the Network Security Group by deleting the security rule<br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13c.PNG)
 <br />
