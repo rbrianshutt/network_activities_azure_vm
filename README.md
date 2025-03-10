@@ -51,7 +51,7 @@ Ensure both VMs are in the same Virtual Network / Subnet <br/>
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/1.4.PNG)
 <br />
 <br />
-<h3>Observe ICMP Traffic</h3>
+<h2>Observe ICMP Traffic</h2>
 
 Use Remote Desktop to connect to your Windows 10 Virtual Machine <br/>
 
@@ -122,12 +122,12 @@ Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13d.PNG)
 <br />
 <br />
-Stop the ping activity <br/>
+Stop the ping activity - Control C <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13e.PNG)
 <br />
 <br />
-<h3>Observe SSH Traffic</h3>
+<h2>Observe SSH Traffic</h2>
 
 In Wireshark, start a packet capture up <br/>
 Filter for SSH traffic only <br/>
@@ -145,7 +145,7 @@ Exit the SSH connection by typing ‘exit’ and pressing [Enter] <br/>
 <br />
 <br />
 
-<h3>Observe DHCP Traffic</h3>
+<h2>Observe DHCP Traffic</h2>
 
 In Wireshark, filter for DHCP traffic only  <br/>
 From your Windows 10 VM, attempt to issue your VM a new IP address from the command line <br/>
@@ -171,7 +171,7 @@ Observe the DNS traffic being show in WireShark <br/>
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.22.2.PNG)
 <br />
 <br />
-<h3>Observe RDP Traffic</h3>
+<h2>Observe RDP Traffic</h2>
 
 In Wireshark, filter for RDP traffic only (tcp.port == 3389)  <br/>
 Observe the immediate non-stop spam of traffic <br/>
