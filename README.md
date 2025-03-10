@@ -112,6 +112,10 @@ Enter * for source port ranges and destination port ranges indicating any ports 
 Select ICMP protocol <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13a1.PNG)
+<br/>
+<br/>
+Notice our security rule denying any source and destination port <br/>
+
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13a2.PNG)
 <br />
 <br />
