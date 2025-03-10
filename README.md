@@ -102,6 +102,11 @@ Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM <br
 Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13a.PNG)
+<br/>
+<br/>
+Enter * for source port ranges and destination port ranges indicating any ports and all ports <br/>
+Select ICMP protocol <br/>
+
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13a1.PNG)
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13a2.PNG)
 <br />
