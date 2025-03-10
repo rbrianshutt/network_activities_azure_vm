@@ -66,6 +66,7 @@ Within your Windows 10 Virtual Machine, Install Wireshark <br/>
 <br />
 <br />
 Open Wireshark and start packet capture <br/>
+Click on Ethernet<br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/2.9.PNG)
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/2.9a.PNG)
