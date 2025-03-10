@@ -107,6 +107,7 @@ Open the Network Security Group your Ubuntu VM is using and disable incoming (in
 <br />
 <br />
 Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity <br/>
+Notice the requests are timing out<br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13b.PNG)
 <br />
