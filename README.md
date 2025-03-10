@@ -143,7 +143,7 @@ Type commands (username, pwd, etc) into the linux SSH connection and observe SSH
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.15.16.17.18.PNG)
 <br/>
 <br/>
-Notice labuser@linux-vm indicating we are logged in via SSH  <br/>
+Notice labuser@linux-vm indicating we are logged in via SSH on the Linux VM  <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.18a.PNG)
 
