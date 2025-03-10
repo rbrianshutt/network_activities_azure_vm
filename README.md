@@ -13,6 +13,7 @@ This project explores network traffic monitoring, firewall configurations, and s
 - <b>Command line tools</b>
 - <b>Network Protocols (SSH, DHCP, DNS, RDP)</b>
 - <b>Wireshark</b>
+- <b>Powershell</b>
 
 <h2>Operating Systems</h2>
 
