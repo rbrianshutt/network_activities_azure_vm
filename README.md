@@ -1,9 +1,9 @@
-<h1>Performing Activities on the Network</h1>
+<h1>Observing Network Traffic in Azure Virtual Machines</h1>
 
 ![]()
 
 <h2>Description</h2>
-Lorem ipsum
+This project explores network traffic monitoring, firewall configurations, and security group management using Azure Virtual Machines. By leveraging tools like Wireshark, users will analyze ICMP, SSH, DNS, DHCP, and RDP traffic while configuring Network Security Groups to control access.
 <br />
 
 <h2>Techonologies Used</h2>
