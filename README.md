@@ -104,6 +104,8 @@ From The Windows 10 VM, open command line or PowerShell and attempt to ping a pu
 <h2>Configuring a Firewall [Network Security Group]</h2>
 
 Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM <br/>
+Add -t to the ping command <br/>
+ping 10.0.0.5 -t <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.13.PNG)
 <br />
