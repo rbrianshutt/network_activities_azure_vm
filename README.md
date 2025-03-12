@@ -42,6 +42,10 @@ Create a Resource Group <br/>
 Create a Windows 10 Virtual Machine (VM) <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/1.2a.PNG)
+<br />
+
+Create a virtual network for our virtual machines
+
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/1.2b.PNG)
 <br />
 
