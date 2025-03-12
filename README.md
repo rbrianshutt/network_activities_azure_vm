@@ -6,6 +6,16 @@
 This project explores network traffic monitoring, firewall configurations, and security group management using Azure Virtual Machines. By leveraging tools like Wireshark, users will analyze ICMP, SSH, DNS, DHCP, and RDP traffic while configuring Network Security Groups to control access.
 <br />
 
+<h2>Overview:</h2>
+
+- <b>Create our Virtual Machines</b> 
+- <b>Observe ICMP Traffic</b>
+- <b>Configuring a Firewall [Network Security Group]</b>
+- <b>Observe SSH Traffic</b>
+- <b>Observe DHCP Traffic</b>
+- <b>Observe DNS Traffic</b> 
+- <b>Observe RDP Traffic</b>
+
 <h2>Techonologies Used</h2>
 
 - <b>Azure</b> 
