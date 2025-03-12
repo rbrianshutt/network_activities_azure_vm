@@ -94,6 +94,7 @@ Within Wireshark, filter for ICMP traffic only <br/>
 <br />
 
 Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM <br/>
+Note it is 10.0.0.5 <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/2.11.PNG)
 <br />
