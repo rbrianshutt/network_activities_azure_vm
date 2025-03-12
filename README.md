@@ -104,8 +104,6 @@ Observe ping requests and replies within WireShark  <br/>
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/2.11a.PNG)
 <br />
 
-From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark  <br/>
-
 <h2>Configuring a Firewall [Network Security Group]</h2>
 
 Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM <br/>
