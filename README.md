@@ -200,7 +200,7 @@ We can use the google.com IP address (pictured above) in the browser to visit go
 
 In Wireshark, filter for RDP traffic only (tcp.port == 3389)  <br/>
 Observe the immediate non-stop spam of traffic <br/>
-The RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted  <br/>
+The RDP (protocol) is constantly showing you a live stream from one computer to another because traffic is always being transmitted  <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.23.24.PNG)
 <br />
