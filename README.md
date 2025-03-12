@@ -1,4 +1,4 @@
-<h1>Observing Network Traffic in Azure Virtual Machines</h1>
+<h1>Observing Network Traffic Utilizing Wireshark and the Command Line</h1>
 
 ![]()
 
