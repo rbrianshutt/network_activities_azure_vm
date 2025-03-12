@@ -1,6 +1,6 @@
 <h1>Observing Network Traffic Utilizing Wireshark and the Command Line</h1>
 
-![]()
+![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/computer%20network.drawio%20.png)
 
 <h2>Description</h2>
 This project explores network traffic monitoring, firewall configurations, and security group management using Azure Virtual Machines. By leveraging tools like Wireshark, users will analyze ICMP, SSH, DNS, DHCP, and RDP traffic while configuring Network Security Groups to control access.
