@@ -189,6 +189,10 @@ Observe the DNS traffic being show in WireShark <br/>
 
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.21.22.PNG)
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.22.1.PNG)
+<br />
+
+We can use the google.com IP address (pictured above) in the browser to visit google.com
+
 ![](https://github.com/rbrianshutt/network_activities_azure_vm/blob/main/Networking/3.22.2.PNG)
 <br />
 
